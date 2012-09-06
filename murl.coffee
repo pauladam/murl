@@ -1,5 +1,8 @@
 # μurl - a tiny url shortening service
 
+# TODO accept new urls through GET instead of post
+# TODO on new url reception, respond to client with shortened url so they can save / paste whatever
+
 port = 9999
 fs = require 'fs'
 http = require 'http'
